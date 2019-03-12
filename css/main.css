@@ -53,8 +53,10 @@ a{
 }
 .main__title{
     font-weight: 700;
-    margin-bottom: 20px;
+    display: block;
     padding-top: 60px;
+    text-align: center;
+    margin-bottom: 20px !important;
 }
 .main__item{
     padding: 10px;
@@ -85,16 +87,19 @@ a{
 }
 .main__code{
     padding-top: 60px;
-    width: 1400px;
     justify-content: space-between;
     margin: 0 auto;
+    flex-direction: column;
 }
 .main__img{
     width: 425px;
     height: 600px;
 }
 .code__wrapper{
+   
     position: relative;
+    margin: 0 auto;
+     margin-bottom: 40px !important;
 }
 .code__color{
     background-color: rgba(0, 0,0,0.6);
@@ -112,6 +117,11 @@ a{
 }
 .footer__bottom{
     justify-content: space-between;
+}
+.footer__list{
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
 }
 .footer__link{
     color: blue;
