@@ -1,0 +1,131 @@
+/*  */
+header{
+    background-color:#094fa3;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+.container{
+    width: 715px;
+    margin: 0 auto;
+}
+.header__img{
+    width: 232px;
+}
+.d-flex{
+    display: flex;
+}
+.header__contact{
+    flex-direction: column;
+}
+.header__link:hover{
+   text-decoration: underline;
+}
+.header__top{
+    justify-content: space-around; 
+    padding: 50px 0px;
+    color: #bababa;
+}
+.header__top a{
+    color: #bababa;
+}
+.header__top::after{
+    content: '';
+    position: absolute;
+    height: 150px;
+    border-left: 1px solid #bababa;
+    top: 75px;
+    left: 49%;
+}
+.main__text{
+    color: #424242;
+    width: 715px;
+    margin: 0 auto;
+    font-size: 21px;
+}
+.main__text span{
+    font-weight: bold;
+}
+.main__title{
+    font-weight: 700;
+    display: block;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+.main__item{
+    padding: 10px;
+    background-color: #bababa;
+    border-radius: 7px;
+    color: #282323;
+}
+.main__item:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+
+}
+.main__skills{
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.main__link{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+    text-decoration: underline;
+}
+.main__code{
+    padding-top: 60px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.main__img{
+    width: 425px;
+    height: 600px;
+}
+.code__wrapper{
+   
+    position: relative;
+    margin: 0 auto;
+     margin-bottom: 40px !important;
+}
+.code__color{
+    background-color: rgba(0, 0,0,0.6);
+    position: absolute;
+    top: 0px;
+    width: 425px;
+    height: 600px;
+    display: none;
+}
+.code__wrapper:hover .code__color{
+    display: block;
+}
+.code__wrapper:hover .main__link{
+    display: block;
+}
+.footer__bottom{
+    justify-content: space-between;
+}
+.footer__list{
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+.footer__link{
+    color: blue;
+}
+.footer li, p, a{
+    font-size: 21px;
+}
