@@ -14,6 +14,9 @@ a{
     width: 715px;
     margin: 0 auto;
 }
+.header__img{
+    width: 232px;
+}
 .d-flex{
     display: flex;
 }
